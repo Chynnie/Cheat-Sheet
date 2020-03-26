@@ -1,0 +1,36 @@
+body {
+    font-family: 'Kalam', cursive;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+}
+
+td,
+th {
+    border: 1px solid #424874;
+    text-align: left;
+    padding: 8px;
+}
+
+td:hover {
+    background-color: #f4eeff;
+}
+
+tr th  {
+background-color: #a6b1e1;
+}
+
+tr:nth-child(3n+1) {
+    background-color: #dcd6f7;
+  }
+
+  .align-text {
+      text-align: center;
+  }
+
